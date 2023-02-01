@@ -4,11 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --watch",
+    "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.0.2",
     "dayjs": "^1.11.7",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
