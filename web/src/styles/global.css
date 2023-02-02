@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
+
+.ProgressRoot {
+  position: relative;
+  overflow: hidden;
+  background: black;
+  border-radius: 99999px;
+  width: 300px;
+  height: 8px;
+  transform: translateZ(0);
+}
+
+.ProgressIndicator {
+  background-color: #8b5cf6;
+  width: 100%;
+  height: 100%;
+  transition: transform 660ms cubic-bezier(0.65, 0, 0.35, 1);
+}
